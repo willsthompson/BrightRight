@@ -1,6 +1,8 @@
 #!/bin/sh
 source constants.sh
 
+osacompile -o BrightRight.scpt BrightRight.applescript
+
 # Build plist XML with user home path
 # (Log launchd output by adding a debug path param,
 # i.e.: -stringparam debug-path ~/Desktop) 
